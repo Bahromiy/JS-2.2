@@ -26,7 +26,7 @@
 ///////////////////////////// 
 
 var ball = +prompt("To'plagan balingizni kiriting");
-if (ball >= 100 && contract <= 150) {
+if (ball >= 100 && ball <= 150) {
   alert(`Siz kontraktga qabul qilindingiz`);
 } else if (ball >= 150) {
   alert(`Siz Grant asosida oʻqishga qabul qilindingiz!`);
